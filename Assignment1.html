@@ -1,10 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Assignment 1</title>
-</head>
-<body>
-</body>
+    <style>
+      body {
+        margin: 0;
+      }
+
+      #header {
+        height: 50px;
+        background-color: #efe9eb;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+      }
+
+      #title {
+          position: relative;
+          top: 1px;
+          left: 40px;
+      }
+
+      #nav-links {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 60px;
+      }
+
+      #nav-links > div {
+          padding-left: 55px;
+          padding-right: 55px;
+          padding-top: 8px;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div id="header">
+        <img src="title.png" id="title"/>
+        <div id="nav-links">
+            <div style="color: #c19da7;">Home</div>
+            <div>About</div>
+            <div>Blog</div>
+            <div>Contact</div>
+        </div>
+    </div>
+  </body>
 </html>
