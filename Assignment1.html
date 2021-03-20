@@ -45,8 +45,51 @@
       }
       
       #third-div {
-          height: 160px;
+        height: 160px;
         background-color: #e9e7e8;
+        display: flex;
+        justify-content: space-evenly;
+      }
+
+      #third-div-first-col {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: flex-start;
+      }
+
+      #third-div-second-col {
+          display: flex;
+          justify-content: center;
+          align-items: flex-end;
+      }
+
+      h1 {
+          font-size: 20px;
+          margin: 5px;
+          margin-bottom: 10px;
+          margin-left: 0px;
+          color: #ce7584;
+      }
+
+      h2 {
+          font-size: 12px;
+          margin: 5px;
+          margin-left: 0px;
+          font-weight: 20;
+          color: rgb(116, 116, 112);
+      }
+
+      h4 {
+          font-size: 8px;
+          margin: 0px;
+          margin-bottom: 10px;
+          line-height: 14px;
+          color: rgb(116, 116, 112);
+      }
+
+      #underline-text {
+          text-decoration: underline;
       }
 
     </style>
@@ -68,6 +111,18 @@
     </div>
 
     <div id="third-div">
+        <div id="third-div-first-col">
+            <h2>NEW PRODUCT</h2>
+            <H1>The Twist of Healthy Yogurt</H1>
+            <h4>This websote template has been designed by<br>
+            <span id="underline-text">Free Website Templates</span><br>
+            for you, for free. You can replace all this text with your own text</h4>
+
+        </div>
+
+        <div id="third-div-second-col">
+            <img src="cream-cup.png"/>
+        </div>
     </div>
   </body>
 </html>
